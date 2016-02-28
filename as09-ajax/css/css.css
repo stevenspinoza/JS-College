@@ -1,0 +1,91 @@
+.row{
+    width:100%;
+    max-width: 100%;
+    clear: both;
+	text-align:center;
+}
+
+.container{
+	margin-top: 2.5rem;
+    width:100%;
+    max-width: 1200px;
+}
+
+/* Heart CSS */
+.modal-back{	
+	background-color:rgba(0, 0, 0, 0.5);	
+}
+
+
+.modal {
+  position: absolute;
+  z-index: 1000;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #000;
+  }
+
+.modal-close {
+  cursor: pointer;}
+
+
+#share {
+  position: relative;
+  /* top: 30px; */
+  right: -20px; 
+  /* float: right; */
+  margin-left:-10px;
+  }
+
+#share-options {
+	text-align:center;
+}
+
+/* Blurred background */
+/* Source of blur:http://codepen.io/chriscoyier/pen/apGBE */
+.dialogIsOpen .container {
+  -webkit-filter: blur(10px) grayscale(50%);
+  filter: blur(10px) grayscale(50%);
+  
+}
+
+.source{
+	text-align: center;	
+    clear: both;
+    margin-top: 2.5rem;
+}
+
+.source h5{
+    line-height: 2.5;
+}
+
+/* Styles for table */
+#price-range{
+	clear: both;
+	text-align:center;
+}
+
+table {
+	margin: 0 auto;
+	width: 780px;
+	table-layout: fixed;
+	word-break: break-all;
+}
+
+/* td, th{overflow: hidden;} */
+
+table#rates	{width: 100%;}
+
+#num{width:5%;}
+#img{width:20%;}
+#desc{width:40%;}
+#sour{width:20%;}
+
+
+/* Slider */
+
+#slider {
+	margin: 30px auto;
+	width: 370px;
+}
+input[type="number"] {margin: 0 10px 0 10px;}

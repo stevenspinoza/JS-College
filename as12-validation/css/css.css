@@ -1,0 +1,178 @@
+.row, form{
+    width:80%;
+    max-width: 80%;
+    clear: both;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.container{
+	margin-top: 2.5rem;
+    width:100%;
+    max-width: 1200px;
+}
+
+/* Heart CSS */
+.modal-back{	
+	background-color:rgba(0, 0, 0, 0.5);	
+}
+
+
+.modal {
+  position: absolute;
+  z-index: 1000;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #000;
+  }
+
+.modal-close {
+  cursor: pointer;}
+
+
+#share {
+  position: relative;
+  /* top: 30px; */
+  right: -20px; 
+  /* float: right; */
+  margin-left:-10px;
+  }
+
+#share-options {
+	text-align:center;
+}
+
+/* Blurred background */
+/* Source of blur:http://codepen.io/chriscoyier/pen/apGBE */
+.dialogIsOpen .container {
+  -webkit-filter: blur(10px) grayscale(50%);
+  filter: blur(10px) grayscale(50%);
+  
+}
+
+.source{
+	text-align: center;	
+    clear: both;
+    margin-top: 2.5rem;
+}
+
+.source h5{
+    line-height: 2.5;
+}
+
+/* Styles for table */
+#price-range{
+	clear: both;
+	text-align:center;
+}
+
+table {
+	margin: 0 auto;
+	width: 780px;
+	table-layout: fixed;
+	word-break: break-all;
+}
+
+/* td, th{overflow: hidden;} */
+
+table#rates	{width: 100%;}
+
+#num{width:5%;}
+#img{width:20%;}
+#desc{width:20%;}
+#sour{width:20%;}
+
+
+/* Slider */
+
+#slider {
+	margin: 30px auto;
+	width: 370px;
+}
+input[type="number"] {margin: 0 10px 0 10px;}
+
+
+/* Arrows for table sorting */
+th.ascending:after {
+	font-size: 60%;
+    content: '\25B2';
+    float: left;
+	padding: 4px 5px 0 0;}
+th.descending:after {
+	font-size: 60%;
+    content: '\25BC';
+    float: left;
+	padding: 4px 5px 0 0;}
+
+th.ascending, th.descending, table.sortable th:hover {
+	background-color: #D7D7D7;
+	color: #fff;}
+	
+/*  */
+fieldset{
+	margin: 30px auto;
+	padding: 30px;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 25px;
+}
+
+.gender{
+	text-align:center;
+}
+
+.gender input, .gender label, 
+.interests input, .interests label, 
+.role, .role label, 
+.password input, .password label,
+.radioRoles, #interests label
+{
+	display:inline;
+}
+
+.gender{margin-top:10px;}
+.gender{margin-top:15px;}
+
+#submit.disabled {background-color: #999;}
+#submit.disabled:hover {
+  background-color: #999;
+  text-shadow: none;
+  box-shadow: none;
+  cursor: not-allowed;}
+  
+  
+#birthday{
+	height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.hide {display: none;}
+
+/* .display{display: inline;}
+
+#other-role{
+	display: none;
+} */
+
+span.error 
+{
+  padding-top: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  padding-left: 20px;
+  color: #242424;
+  background-image: url("../img/icon-warning.png");
+  background-position: left 3px;
+  background-repeat: no-repeat;
+}
+
+.ui-datepicker-calendar, .ui-datepicker-header{
+	background-color:white;
+	width: auto;
+}

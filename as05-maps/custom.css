@@ -1,0 +1,52 @@
+/* Custom elements */
+
+/* Centered paramaters in body from: http://output.jsbin.com/emomi3/5/*/
+body {
+    position: relative;
+    width: 100%;
+    display: block;
+	background-color:white;
+}
+
+body > *  {
+    margin: auto;
+    width: 85%;
+    display: block;
+    /* overflow: auto; */
+} 
+
+h1 img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+#imgMap {
+	text-align: center;
+}
+
+
+#map,#map2,#map3{
+	width:100%;
+	display:inline-block;
+}
+
+
+.ui-widget-header {    
+    background: #00007A;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #0078ae ;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: #6eac2c;
+}
+
+#tabs a:hover{
+	color:#ffff00;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-hover {
+    border: 1px solid #77d5f7;

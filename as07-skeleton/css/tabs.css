@@ -1,0 +1,24 @@
+/********** TABS **********/
+.tab-list {
+  margin-bottom: 1rem;
+  width: 100%;
+  } 
+  
+.tab-list li {
+  display: inline-block;
+  list-style-type: none;
+  }
+
+.tab-panel img{
+	float: right;
+	margin-left: 2.5rem;
+}  
+  
+/********** PANELS **********/
+.tab-panel {
+  display: none;
+  }
+
+.tab-panel.active {
+  display: block;}
+

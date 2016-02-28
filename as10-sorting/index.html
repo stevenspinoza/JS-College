@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Assignment #10 - Steven Espinoza</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/css.css" />
+  <link rel="stylesheet" href="css/jquery.nouislider.css" />  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <h4>Mother Teresa in Table Sorting
+			<span id="share">
+			  <a><img src="images/modal-window-button-share.png" width="30" height="30" alt="Share icon" /></a>
+			</span>
+		</h4>
+		<p>Assignment #10 - Steven Espinoza</p>
+          
+		<!-- <div id="price-range">
+		  From: <input type="number" id="value-min" />
+		  To: <input type="number" id="value-max" />
+			<div id="slider"></div> -->
+			<table id="rates"  class="sortable">
+				<thead>
+					<th id="num" data-sort="name">#</th>
+					<th id="img">Screenshot</th>
+					<th id="desc" data-sort="duration">Video Duration</th>
+					<th id="sour" data-sort="date">Original broadcast</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td><img src="images/compassion_mother_teresa.jpg" data-tags="1" alt="compassion" title="From: http://www.writespirit.net/authors/mother-teresa/" height="150" width="200"></td>
+						<td>2:40</td>
+						<td><a href="http://www.writespirit.net/authors/mother-teresa/" target="_blank">2011-04-10</a></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td><img src="images/kk201510151333-650x340.jpg" data-tags="2" alt="smile" title="From: http://www.inspiration.allwomenstalk.com/inspirational-celebrity-quotes/2" height="150" width="200"></td>
+						<td>5:45</td>
+						<td><a href="http://www.inspiration.allwomenstalk.com/inspirational-celebrity-quotes/2" target="_blank">2005-12-21</a></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td><img src="images/mother_teresa_1016.jpg" data-tags="3" alt="serious" title="From:  http://www.swarajyamag.com/politics/recall-bhopal-tragedy-to-know-real-teresa/" height="150" width="200"></td>
+						<td>2:45</td>
+						<td><a href=" http://www.swarajyamag.com/politics/recall-bhopal-tragedy-to-know-real-teresa/" target="_blank">2010-07-16</a></td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td><img src="images/Mother-Teresa-9.jpg" data-tags="4" alt="praying" title="From: http://www.fotonin.com/944074.html" height="150" width="200"></td>
+						<td>6:12</td>
+						<td><a href="http://www.fotonin.com/944074.html" target="_blank">2015-07-16</a></td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td><img src="images/Mother-Teresa.jpg" data-tags="5" alt="smile2" title="From:  http://www.dailymail.co.uk/news/article-2287427/Was-Mother-Teresa-saintly-Researchers-spark-controversy-claiming-care-sick-dubious-handling-cash-suspicious.html" height="150" width="200"></td>
+						<td>7:40</td>
+						<td><a href=" http://www.dailymail.co.uk/news/article-2287427/Was-Mother-Teresa-saintly-Researchers-spark-controversy-claiming-care-sick-dubious-handling-cash-suspicious.html" target="_blank">2001-07-16</a></td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td><img src="images/mother-teresa1.jpg" data-tags="6" alt="smile3" title="From: http://www.mikepavelka.com/weekly-meditational-prayer/mother-teresa-meditation/" height="150" width="200"></td>
+						<td>12:41</td>
+						<td><a href="http://www.mikepavelka.com/weekly-meditational-prayer/mother-teresa-meditation/" target="_blank">2003-07-16</a></td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td><img src="images/Mother-Teresa2.jpg" data-tags="7" alt="compassion2" title="From: http://www.uncyclopedia.wikia.com/wiki/User:Syndrome/Mother_Teresa" height="150" width="200"></td>
+						<td>22:30</td>
+						<td><a href="http://www.uncyclopedia.wikia.com/wiki/User:Syndrome/Mother_Teresa" target="_blank">2007-07-16</a></td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td><img src="images/mother-with-baby.jpg" data-tags="8" alt="compassion3" title="From: http://www.motherteresa.org/Centenary/Spanish/August_sp2.html" height="150" width="200"></td>
+						<td>6:14</td>
+						<td><a href="http://www.motherteresa.org/Centenary/Spanish/August_sp2.html" target="_blank">2009-07-16</a></td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td><img src="images/rosaries_mother_teresa.jpg" data-tags="9" alt="quote" title="From: http://www.mumsru.club/iconic-women-mother-teresa/" height="150" width="200"></td>
+						<td>9:04</td>
+						<td><a href="http://www.mumsru.club/iconic-women-mother-teresa/" target="_blank">2000-07-16</a></td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td><img src="images/showbiz-mother-teresa-in-ethiopia.jpg" data-tags="10" alt="speaking" title="From: http://www.bitchspot.jadedragononline.com/2013/04/24/mother-teresa-was-no-humanitarian/" height="150" width="200"></td>
+						<td>5:55</td>
+						<td><a href="http://www.bitchspot.jadedragononline.com/2013/04/24/mother-teresa-was-no-humanitarian/" target="_blank">2004-07-16</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+        <div class="source">
+			<h5>Text source: 
+			<a href="https://en.wikipedia.org/wiki/Mother_Teresa">Wikipedia.org/wiki/Mother_Teresa</a>
+			</h5>
+		</div>
+      </div>
+    </div>	
+	<!--Text and images source:https://en.wikipedia.org/wiki/Mother_Teresa-->
+	
+	 <div id="share-options">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mutter_Teresa_von_Kalkutta.jpg/210px-Mutter_Teresa_von_Kalkutta.jpg" height="294" width="210" alt="Thanks Mother Teresa!" id="message" />
+      <h4>Thanks Mother Teresa!</h4>	 
+    </div>
+	
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.nouislider.js"></script> -->
+<!-- <script src="func_opt.js"></script> -->
+<script src="sort.js"></script>
+<script src="js/modal-window.js"></script>
+</body>
+</html>

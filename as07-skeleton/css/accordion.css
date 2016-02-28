@@ -1,0 +1,38 @@
+.container{
+	margin-top: 2.5rem;
+}
+
+.accordion li {
+  padding: 0;
+  list-style-type: none;}
+
+ .accordion-control {
+  width: 100%;
+  } 
+
+.accordion-panel {
+  display: none;}
+
+img{
+	margin-bottom: 2.5rem;
+}
+
+.accordion img{
+	float: left;
+	margin-right: 2.5rem;
+}
+
+.source{
+	float: right;
+	text-align:center;
+	width: 75%;
+	display:flex;
+	height: 229px;
+	align-items: center;
+	justify-content: center;
+}
+
+.source h5{
+	margin-bottom: 0;
+	
+}

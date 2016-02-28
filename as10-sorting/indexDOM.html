@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Assignment #9 - Steven Espinoza</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/jquery.nouislider.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <h4>Mother Teresa in Slider Filter
+			<span id="share">
+			  <a><img src="images/modal-window-button-share.png" alt="Share icon" height="30" width="30"></a>
+			</span>
+		</h4>
+                <p>Assignment #9 - Steven Espinoza</p>
+
+                <div id="price-range">
+                    From:
+                    <input id="value-min" type="number"> To:
+                    <input id="value-max" type="number">
+                    <div class="noUi-target noUi-ltr noUi-horizontal noUi-background" id="slider">
+                        <div class="noUi-base">
+                            <div style="left: 33.3333%;" data-style="left" class="noUi-origin noUi-connect">
+                                <div class="noUi-handle noUi-handle-lower"></div>
+                            </div>
+                            <div style="left: 66.6667%;" data-style="left" class="noUi-origin noUi-background">
+                                <div class="noUi-handle noUi-handle-upper"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <table id="rates">
+                        <thead>
+                            <tr>
+                                <th id="num">#</th>
+                                <th id="img">Image</th>
+                                <th id="desc">Description</th>
+                                <th id="sour">Source</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="display: none;">
+                                <td>1</td>
+                                <td><img src="images/compassion_mother_teresa.jpg" data-tags="1" alt="compassion" title="From: http://www.writespirit.net/authors/mother-teresa/" height="150" width="200"></td>
+                                <td>Mother Teresa (26 August 1910 – 5 September 1997) also known as Teresa of Calcutta, MC,was a Roman Catholic religious sister and missionary.</td>
+                                <td><a href="http://www.writespirit.net/authors/mother-teresa/" target="_blank">http://www.writespirit.net/authors/mother-teresa/</a></td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>2</td>
+                                <td><img src="images/kk201510151333-650x340.jpg" data-tags="2" alt="smile" title="From: http://www.inspiration.allwomenstalk.com/inspirational-celebrity-quotes/2" height="150" width="200"></td>
+                                <td>She was born in Skopje, Macedonia, then still in the Ottoman Empire, into a family of Kosovar Albanian ancestry.</td>
+                                <td><a href="http://www.inspiration.allwomenstalk.com/inspirational-celebrity-quotes/2" target="_blank">http://www.inspiration.allwomenstalk.com/inspirational-celebrity-quotes/2</a></td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>3</td>
+                                <td><img src="images/mother_teresa_1016.jpg" data-tags="3" alt="serious" title="From:  http://www.swarajyamag.com/politics/recall-bhopal-tragedy-to-know-real-teresa/" height="150" width="200"></td>
+                                <td>After having lived in Macedonia for some eighteen years, she moved to Ireland and then to India, where she lived for most of her life.</td>
+                                <td><a href=" http://www.swarajyamag.com/politics/recall-bhopal-tragedy-to-know-real-teresa/" target="_blank"> http://www.swarajyamag.com/politics/recall-bhopal-tragedy-to-know-real-teresa/</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><img src="images/Mother-Teresa-9.jpg" data-tags="4" alt="praying" title="From: http://www.fotonin.com/944074.html" height="150" width="200"></td>
+                                <td>Mother Teresa founded the Missionaries of Charity, a Roman Catholic religious congregation, which in 2012 consisted of over 4,500 sisters and was active in 133 countries.</td>
+                                <td><a href="http://www.fotonin.com/944074.html" target="_blank">http://www.fotonin.com/944074.html</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><img src="images/Mother-Teresa.jpg" data-tags="5" alt="smile2" title="From:  http://www.dailymail.co.uk/news/article-2287427/Was-Mother-Teresa-saintly-Researchers-spark-controversy-claiming-care-sick-dubious-handling-cash-suspicious.html" height="150" width="200"></td>
+                                <td>They run hospices and homes for people with HIV/AIDS, leprosy and tuberculosis; soup kitchens; dispensaries and mobile clinics; children's and family counselling programmes; orphanages; and schools.</td>
+                                <td><a href=" http://www.dailymail.co.uk/news/article-2287427/Was-Mother-Teresa-saintly-Researchers-spark-controversy-claiming-care-sick-dubious-handling-cash-suspicious.html" target="_blank"> http://www.dailymail.co.uk/news/article-2287427/Was-Mother-Teresa-saintly-Researchers-spark-controversy-claiming-care-sick-dubious-handling-cash-suspicious.html</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><img src="images/mother-teresa1.jpg" data-tags="6" alt="smile3" title="From: http://www.mikepavelka.com/weekly-meditational-prayer/mother-teresa-meditation/" height="150" width="200"></td>
+                                <td>Mother Teresa was the recipient of numerous honours, including the 1979 Nobel Peace Prize. In 2003, she was beatified as "Blessed Teresa of Calcutta".</td>
+                                <td><a href="http://www.mikepavelka.com/weekly-meditational-prayer/mother-teresa-meditation/" target="_blank">http://www.mikepavelka.com/weekly-meditational-prayer/mother-teresa-meditation/</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><img src="images/Mother-Teresa2.jpg" data-tags="7" alt="compassion2" title="From: http://www.uncyclopedia.wikia.com/wiki/User:Syndrome/Mother_Teresa" height="150" width="200"></td>
+                                <td>Mother Teresa said "By blood, I am Albanian. By citizenship, an Indian. By faith, I am a Catholic nun. As to my calling, I belong to the world. As to my heart, I belong entirely to the Heart of Jesus."</td>
+                                <td><a href="http://www.uncyclopedia.wikia.com/wiki/User:Syndrome/Mother_Teresa" target="_blank">http://www.uncyclopedia.wikia.com/wiki/User:Syndrome/Mother_Teresa</a></td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>8</td>
+                                <td><img src="images/mother-with-baby.jpg" data-tags="8" alt="compassion3" title="From: http://www.motherteresa.org/Centenary/Spanish/August_sp2.html" height="150" width="200"></td>
+                                <td>After having lived in Macedonia for some eighteen years, she moved to Ireland and then to India, where she lived for most of her life.</td>
+                                <td><a href="http://www.motherteresa.org/Centenary/Spanish/August_sp2.html" target="_blank">http://www.motherteresa.org/Centenary/Spanish/August_sp2.html</a></td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>9</td>
+                                <td><img src="images/rosaries_mother_teresa.jpg" data-tags="9" alt="quote" title="From: http://www.mumsru.club/iconic-women-mother-teresa/" height="150" width="200"></td>
+                                <td>In 1982, at the height of the Siege of Beirut, Mother Teresa rescued 37 children trapped in a front line hospital by brokering a temporary cease-fire between the Israeli army and Palestinian guerrillas.</td>
+                                <td><a href="http://www.mumsru.club/iconic-women-mother-teresa/" target="_blank">http://www.mumsru.club/iconic-women-mother-teresa/</a></td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>10</td>
+                                <td><img src="images/showbiz-mother-teresa-in-ethiopia.jpg" data-tags="10" alt="speaking" title="From: http://www.bitchspot.jadedragononline.com/2013/04/24/mother-teresa-was-no-humanitarian/" height="150" width="200"></td>
+                                <td>When Eastern Europe experienced increased openness in the late 1980s, she expanded her efforts to Communist countries that had previously rejected the Missionaries of Charity, embarking on dozens of projects.</td>
+                                <td><a href="http://www.bitchspot.jadedragononline.com/2013/04/24/mother-teresa-was-no-humanitarian/" target="_blank">http://www.bitchspot.jadedragononline.com/2013/04/24/mother-teresa-was-no-humanitarian/</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="source">
+                    <h5>Text source: 
+			<a href="https://en.wikipedia.org/wiki/Mother_Teresa">Wikipedia.org/wiki/Mother_Teresa</a>
+			</h5>
+                </div>
+            </div>
+        </div>
+        <!--Text and images source:https://en.wikipedia.org/wiki/Mother_Teresa-->
+
+
+
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nouislider.js"></script>
+    <script src="func_opt.js"></script>
+    <script src="sort.js"></script>
+    <script src="js/modal-window.js"></script>
+
+
+</body>
+
+</html>

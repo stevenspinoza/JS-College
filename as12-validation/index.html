@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Assignment #12 - Steven Espinoza</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/css.css" />
+  <link rel="stylesheet" href="css/jquery.nouislider.css" />  
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <h4>Mother Teresa in Form Validation 2
+			<span id="share">
+			  <a><img src="images/modal-window-button-share.png" width="30" height="30" alt="Share icon" /></a>
+			</span>
+		</h4>
+		<p>Assignment #12 - Steven Espinoza</p>
+          
+		<form method="post" id="form-teresa" action="" name="register" novalidate>
+
+			<h1>Sign Up</h1>
+
+			<fieldset>
+                <div class="name">
+                    <label for="name" class="required">Name and last name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+				</div>
+                <div class="birthday">
+                    <label for="birthday" class="required">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
+				</div>
+                <div class="age">
+                    <label>Age:</label>
+                    <input type="number" id="age" name="age" min="1" max="150"/>
+				</div>
+                <div class="email">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" placeholder="you@example.com"/>
+                </div>
+				<div class="password">
+				<!-- qwertyqwerty -->
+					<label for="pwd">Password:</label><br> 
+					<input type="password" id="pwd" name="pwd" required><br>
+					<input type="checkbox" id="showPwd">
+					<label for="showPwd">show password</label>
+				</div>
+				<div class="gender">
+					<label>Gender:  </label><br>    
+					<input type="radio" id="male" value="male" name="user_gender"/>  
+					<label for="male" class="light">Male</label>  					
+					<input type="radio" id="female" value="female" name="user_gender"/>
+					<label for="female" class="light">Female</label>
+					<input type="radio" id="othergen" value="other" name="user_gender"/>
+					<label for="othergen" class="light">Other</label>
+					
+				</div>										
+			</fieldset>
+
+			<fieldset>
+                <div class="bio">
+                    <label for="bio">Biography: (up to 140 characters)</label>
+                    <textarea id="bio" name="bio"></textarea>	
+                    <span id="bio-count" class="hide"></span>
+				</div>
+                <div class="jobrole">
+                    <label>Job Role:</label>
+                    <div class="role">
+						<div id="radioRoles">	
+							<input type="radio" id="web" value="web" name="role" class="chkbox"/>  
+							<label for="web" >Web</label>  					
+							<input type="radio" id="mobile" value="mobile" name="role" class="chkbox"/>
+							<label for="mobile">Mobile</label>
+							<input type="radio" id="business" value="business" name="role" class="chkbox"/>
+							<label for="business">Business</label>
+							<input type="radio" id="other" value="other" name="role" class="chkbox"/>
+							<label for="other">Other</label>							
+						</div>
+                        <br>
+						<!-- <span id="errorChk"/> -->
+                        <select id="subrole" name="subrole">
+                            <option>Please choose a role first</option>
+                        </select>
+                        <input type="text" name="other-role" id="other-role" class="hide"/>
+                    </div>
+				</div>
+				
+				<!-- <select id="job" name="user_job">
+					<optgroup label="Web">
+						<option value="frontend_developer">Front-End Developer</option>
+						<option value="php_developor">PHP Developer</option>
+						<option value="python_developer">Python Developer</option>
+						<option value="rails_developer"> Rails Developer</option>
+						<option value="web_designer">Web Designer</option>
+						<option value="WordPress_developer">WordPress Developer</option>
+					</optgroup>
+					<optgroup label="Mobile">
+						<option value="Android_developer">Android Developer</option>
+						<option value="iOS_developer">iOS Developer</option>
+						<option value="mobile_designer">Mobile Designer</option>
+					</optgroup>
+					<optgroup label="Business">
+						<option value="business_owner">Business Owner</option>
+						<option value="freelancer">Freelancer</option>
+					</optgroup>
+					<optgroup label="Other">
+						<option value="secretary">Secretary</option>
+						<option value="maintenance">Maintenance</option>
+					</optgroup>
+				</select> -->
+				
+				<div id="interests">
+					<label>Interests:</label><br>					
+					<input type="checkbox" id="development" value="interest_development" name="user_interest" class="interest"/>
+					<label class="light" for="development">Development</label>
+					
+					<input type="checkbox" id="design" value="interest_design" name="user_interest" class="interest"/>
+					<label class="light" for="design">Design</label>
+					
+					<input type="checkbox" id="businessInt" value="interest_business" name="user_interest" class="interest"/>
+					<label class="light" for="businessInt">Business</label>
+					
+					<input type="checkbox" id="all" value="all" name="user_interest" class="interest"/>
+					
+					<label class="light" for="all">All</label>
+				</div>
+			</fieldset>
+			<button type="submit" id="submit" >Sign Up</button>
+		</form>
+				
+       
+      </div>
+    </div>	
+	<!--Text and images source:https://en.wikipedia.org/wiki/Mother_Teresa-->
+	
+	 <div id="share-options">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mutter_Teresa_von_Kalkutta.jpg/210px-Mutter_Teresa_von_Kalkutta.jpg" height="294" width="210" alt="Thanks Mother Teresa!" id="message" />
+      <h4>Thanks Mother Teresa!</h4>	 
+    </div>
+	
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/jquery.js"></script>
+<!-- <script src="sort.js"></script> -->
+<!-- <script src="validation.js"></script> -->
+<script src="js/jquery-ui-1.10.3.custom.js"></script>
+<script src="validation2.js"></script>
+<script src="input-type.js"></script>
+<script src="all-checkboxes.js"></script>
+<script src="radio-selectbox.js"></script>
+<!-- <script src="disable-submit.js"></script> -->
+<script src="textarea-counter.js"></script>
+<script src="js/modal-window.js"></script>
+</body>
+</html>
