@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Steven Sp-->
+<!--Validated at http://www.w3schools.com/xml/xml_validator.asp
+and
+http://www.freeformatter.com/xml-validator-xsd.html-->
+<music>
+	<artist name="Radiohead">
+		<album name="The King of Limbs">
+			<tracks number="8">
+				<song number="1">Bloom</song>
+				<song number="2">Morning Mr Magpie</song>
+				<song number="3">Little by Little</song>
+				<song number="4">Feral</song>
+				<song number="5">Lotus Flower</song>
+				<song number="6">Codex</song>
+				<song number="7">Give Up the Ghost</song>
+				<song number="8">Separator</song>
+			</tracks>
+			<description>
+			The King of Limbs is the eighth studio album by English rock band Radiohead, produced by Nigel Godrich. It was self-released on 18 February 2011 as a download in MP3 and WAV formats, followed by physical CD and 12vinyl releases on 28 March, a wider digital release via AWAL, and a special "newspaperedition on 9 May 2011. The physical editions were released through the band's Ticker Tape imprint on XL in the United Kingdom, TBD in the United States, and Hostess Entertainment in Japan.</description>
+		</album>
+	</artist>
+</music>

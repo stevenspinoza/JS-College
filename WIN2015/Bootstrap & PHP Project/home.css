@@ -1,0 +1,140 @@
+/* Separating body from fixed navbars */
+body{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.jumbotron {
+  background-color:#fbfbfb;
+  text-align:center;
+}
+
+h1 {
+	display: inline;
+	font-family: 'Bookman Old Style';
+	text-transform: uppercase;
+	}
+	
+.mobtitle {
+	display:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+
+
+/* Add title to nav bar when goes mobile */
+@media (max-width: 767px){
+	.jumbotron{display:none; padding: 0 20px;}
+	
+	.mobtitle {
+	display:inline;
+	font-family: 'Bookman Old Style';
+	text-transform: uppercase;
+	color:white;
+	line-height:2.2;
+	
+	}
+	
+	
+}
+
+/*mobile title clears when is to narrow*/
+@media (max-width: 355px){
+	.mobtitle {display:none}
+
+
+}
+/*Change search bar for small icon*/
+@media (max-width: 910px){
+	
+}
+
+/* Logo in nav bar */
+.imgbar{
+	height: 30px;
+	width: 30px;
+	margin-top: -5px;
+	-webkit-filter: invert(100%);
+}
+
+.imgbar:hover { 
+   -webkit-filter: sepia(20%);   
+}
+
+
+/* Logo in jumbotron */
+.img-responsive.jumbo{
+  vertical-align: text-bottom;
+  display:inline;
+  margin-right: 40px;
+  margin-top: -33px;
+  height: 95px;
+  width: 95px;
+}
+
+/* Resize jumbotron */
+
+.footer {
+  position: relative;
+  bottom: 0;
+  /*max-width: 750px;*/
+  /* Set the fixed height of the footer here */
+  
+}
+
+
+.navbar, #footbar, .blueb {
+  background-color: #0088cc;
+  border-color: #0072ab;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#00aaff), to(#0088cc));
+  background-image: -webkit-linear-gradient(top, #00aaff, 0%, #0088cc, 100%);
+  background-image: -moz-linear-gradient(top, #00aaff 0%, #0088cc 100%);
+  background-image: linear-gradient(to bottom, #00aaff 0%, #0088cc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00aaff', endColorstr='#ff0088cc', GradientType=0);
+}
+
+/* Toggle button style */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: yellow;
+  background-color: transparent;
+}
+
+object{
+	border: 10px outset #0088cc;
+}
+
+/*****************************/
+/******* Contact Page ********/
+/*****************************/
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

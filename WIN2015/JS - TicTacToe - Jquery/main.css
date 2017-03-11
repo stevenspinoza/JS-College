@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+table {
+  margin-left:auto; 
+  margin-right:auto; 
+  width: 551px; 
+  -webkit-user-select: none; 
+  border-collapse: collapse;
+}
+td {
+  height: 175px;
+  width: 175px;
+  text-align: center;
+  font-size: 120px;
+}
+td:nth-of-type(2) {
+	border-left: 2px solid #cccccc;
+	border-right: 2px solid #cccccc;
+}
+tr:nth-of-type(2) td {
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+}
+#players {
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 20px 10px 10px 10px;
+  width: 511px; 
+  text-align: left;
+}
+#players > div {
+  display: inline-block;
+  padding-right: 25px;
+  color: #cccccc;
+}
+.button {
+  float: right;
+}
+.current-player {
+  color: black !important;
+}
+.X-marker {
+  color: #663366;
+}
+.X-marker:before {
+  content: "X";
+}
+.O-marker {
+  color: #CC0033;
+}
+.O-marker:before {
+  content: "O";
+}
+.win {
+	background-color: rgb(144, 238, 144);
+}
+/* Settings form */
+#settings {
+	text-align: left;
+    margin: 0 auto 20px auto;
+    width: 551px; 
+}
+#settings legend {
+	text-align: center;
+}
+#settings label {
+	float: left;
+	clear: left;
+	display: inline-block;
+	width: 100px;
+	margin: 10px 0;
+}
+#settings input {
+	float: left;
+	display: inline-block;
+	width: 380px;
+	margin: 10px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+#settings button {
+	clear: both;
+	display: block;
+	width: 150px;
+	margin: 10px auto 0 auto;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}

@@ -1,0 +1,7 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./data/data.db"
+	"jwt_secret": "E3F68BCDF3FF9D7A34FA7CBCE5EC4831F7F75ACB6A5B145894FEE5F619"
+  }
+}

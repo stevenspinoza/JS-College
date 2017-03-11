@@ -1,0 +1,78 @@
+body {
+  background-color: #BCDBF2;
+}
+
+body > div {
+  width: 300px;
+  margin:50px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.todo-item {
+  border: 2px solid #444;
+  margin-top: -2px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  background-color: #ffffff;
+}
+.todo-new {
+  display: block;
+  margin-top: 10px;
+}
+
+.todo-new input[type='text'] {
+  width: 260px;
+  height: 22px;
+  border: 2px solid #444;
+}
+
+.todo-new a {
+  font-size: 1.5em;
+  color: black;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 2px solid #444;
+  display: block;
+  width: 24px;
+  float: right;
+  text-align: center;
+}
+
+.todo-new a:hover {
+  background-color: #0EB0dd;
+}
+
+.remove {
+  float: right;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #dd0000;
+}
+
+.remove:before {
+  content: 'X';
+}
+
+.remove:hover {
+  color: #ffffff;
+}
+
+.todo-item::after:hover{
+  background-color: #dd0000;
+  color: white;
+}
+
+.todo-item:hover {
+  background-color: #0EB0FF;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #909090;
+}

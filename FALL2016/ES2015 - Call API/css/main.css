@@ -1,0 +1,39 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Arrows for table sorting */
+th.ascending:after {
+	font-size: 60%;
+    content: '\25B2';
+    float: left;
+	padding: 4px 5px 0 0;}
+th.descending:after {
+	font-size: 60%;
+    content: '\25BC';
+    float: left;
+	padding: 4px 5px 0 0;}
+
+th.ascending, th.descending, table.sortable th:hover {
+	background-color: #D7D7D7;
+	color: #fff;}
+
+
+.jumbotron {
+	color: white;
+    background-color: #1c89df;
+}
+
+
+
+
+
+
+
+
+
+
+
+

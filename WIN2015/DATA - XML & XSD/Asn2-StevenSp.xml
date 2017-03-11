@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Steven Sp-->
+<!DOCTYPE catalog PUBLIC "-W3C//DTD XHTML 1.0 Transitional//EN
+" "http://www.scweb.ca/~w0668955/xml/wk2/asn2/catalog.dtd">
+<catalog number="035">
+   <book id="bo01">
+      <author gender="men">Bram Stoker</author>
+      <title> Dracula </title>
+      <genre>Terror</genre>
+      <price>44.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Stephen King </author>
+      <title> The Shining </title>
+      <genre>Terror</genre>
+      <price>5.95</price>
+	  <favorite>
+		<answer>Yes</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Stephen King</author>
+      <title> Misery </title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Corets, Eva</author>
+      <title>Oberon's Legacy</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Stephen King</author>
+      <title> Carrie </title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Stephen King</author>
+      <title> It </title>
+      <genre>Romance</genre>
+      <price>4.95</price>
+	  <favorite>
+		<answer>Yes</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Thurman, Paula</author>
+      <title>Splish Splash</title>
+      <genre>Romance</genre>
+      <price>4.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author>Knorr, Stefan</author>
+      <title>Creepy Crawlies</title>
+      <genre>Horror</genre>
+      <price>4.95</price>
+	  <favorite>
+		<answer>Yes</answer>
+	  </favorite>
+   </book>
+   <book >
+      <author>Kress, Peter</author>
+      <title>Paradox Lost</title>
+      <genre>Science Fiction</genre>
+      <price>6.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+   <book>
+      <author >O'Brien, Tim</author>
+      <title> Gerald's Game </title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+	  <favorite>
+		<answer>No</answer>
+	  </favorite>
+   </book>
+</catalog>

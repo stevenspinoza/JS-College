@@ -1,2 +1,2 @@
-# FALL2015
+# JS
 Assignments done during my college years

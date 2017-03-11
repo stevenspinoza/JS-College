@@ -1,0 +1,32 @@
+{
+  "name": "web615_client_side_skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton app for our client side code, I'll keep it up to date with the necessary libraries / build processes as we move along in the course",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+	"redux-logger": "^2.8.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack",
+    "server": "./node_modules/.bin/webpack-dev-server --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShawnCC/web615_client_side_skeleton.git"
+  },
+  "author": "Shawn Crusvar",
+  "bugs": {
+    "url": "https://github.com/ShawnCC/web615_client_side_skeleton/issues"
+  },
+  "homepage": "https://github.com/ShawnCC/web615_client_side_skeleton"
+}

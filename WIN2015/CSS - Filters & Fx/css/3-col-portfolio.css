@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.page-header {
+  margin: 40px 0 40px;
+  text-shadow: 4px 4px 5px #aaa;
+
+}
+
+footer {
+    margin: 50px 0;
+	text-shadow: 4px 4px 5px #aaa;
+}
+
+.html5 {
+	-webkit-filter: blur(10px);
+	border-radius:50px;
+}
+
+.jquery {
+	-webkit-filter: grayscale(.9);
+	border-radius:50px;
+}
+
+.js{
+	-webkit-filter: hue-rotate(120deg);
+	border-radius:50px;
+}
+
+.php{
+	-webkit-filter: saturate(9);
+	border-radius:50px;
+}
+
+.php{
+	-webkit-filter: saturate(9);
+	box-shadow: 4px 4px 10px 0px #aaa outset;
+	border-radius:50px;
+}
+
+.css{
+	-webkit-filter: sepia(1);
+	border-radius:50px;
+}
+
+.sql{
+	-webkit-filter: invert(.8);
+	border-radius:50px;
+}
+
+.java{
+	box-shadow: -4px 4px #aaa;
+	border-radius:50px;
+}
+
+.webgl{
+	box-shadow: 4px 4px 20px #aaa;
+	border-radius:50px;
+}
+
+.chrome{
+	box-shadow: 4px 4px 10px 10px #aaa;
+	border-radius:50px;
+}
+
+.video{
+	width: 300px;
+	height: 200px;
+	margin: 0 -20px;
+}
+
+.audio{
+	padding-top:100px;
+}
+
+.navbar-inverse{
+	background: -webkit-linear-gradient(90deg, red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, red, blue); /* Standard syntax (must be last) */
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+	color:white;
+}

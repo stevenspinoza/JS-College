@@ -1,0 +1,7 @@
+<h1 class="title">{{title}}</h1>
+    <p>{{text}}</p>
+	<input [(ngModel)]="title" placeholder="AppName">
+	<button type="button" (click)="getTitle()">Set Default</button>
+	<!-- <button type="button" (click)="showSec()">Show Second Comp</button>-->
+	
+    <sec-comp [title]="title"></sec-comp> 

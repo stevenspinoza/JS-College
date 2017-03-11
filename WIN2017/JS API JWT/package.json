@@ -1,0 +1,25 @@
+{
+  "name": "asn1",
+  "version": "1.0.0",
+  "description": "Assignment #3",
+  "author": "Steven Espinoza",
+  "scripts": {
+    "start": "nodemon app.js --ignore node_modules"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "morgan": "^1.7.0",
+    "q": "^1.4.1",
+    "sequelize": "^3.29.0",
+    "sequelize-cli": "^2.5.1",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "nodemon": "^1.11.0"
+  }
+}

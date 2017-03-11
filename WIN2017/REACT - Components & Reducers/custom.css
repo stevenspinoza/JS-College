@@ -1,0 +1,29 @@
+.markets{
+	background-color: orangered;
+	border: 1px black;
+    border-style: solid;
+}
+.market{
+	background-color: greenyellow;
+	border: 1px black;
+    border-style: solid;
+}
+
+.detail  {
+	background-color: rgba(233, 30, 99, 0.2);
+	border: 1px black;
+    border-style: solid;
+	border-radius: 4px;
+}
+
+.active{
+	background-color: #FFC107 !important;
+	border: 1px black;
+    border-style: solid;
+}
+
+.provider{
+	background-color: deepskyblue;
+	border: 1px black;
+    border-style: solid;
+}
